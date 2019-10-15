@@ -1,0 +1,25 @@
+{
+    "name": "ipaybw/ipaybw",
+    "type": "library",
+    "description": "IPayBW PHPLib",
+    "keywords": [
+        "payment",
+        "gateway"
+    ],
+    "license": "MIT",
+    "homepage": "https://www.ipaybw.com",
+    "authors": [
+        {
+            "name": "IPayBW AG",
+            "homepage": "https://www.ipaybw.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "IPayBW": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
